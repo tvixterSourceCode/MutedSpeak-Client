@@ -4,6 +4,7 @@ import pyttsx3
 
 client = socket.socket()
 client.connect(NUH-UH)
+print("Connected to server")
 
 engine = pyttsx3.Engine()
 
